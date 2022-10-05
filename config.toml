@@ -3,7 +3,7 @@ title = "Anatole"
 description = "A other zola theme"
 
 # The URL the site will be built for
-base_url = "http://wenruoxu.com"
+base_url = "https://wenruoxu.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
