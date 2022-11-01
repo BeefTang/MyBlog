@@ -26,6 +26,9 @@
   {% endif %}
   {% block extra_head %}
   {% endblock extra_head %}
+  {% if page.extra.katex or section.extra.katex or config.extra.katex %}
+  {% include 'katex.html' %}
+  {% endif %}
 </head>
 
 <body>
