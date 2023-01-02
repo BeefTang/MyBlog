@@ -24,14 +24,6 @@ taxonomies = [
 highlight_code = false
 
 
-[extra]
-katex = true
-
-
-[extra.show]
-tags = true
-links = true
-
 [languages.en]
 title = "Anatole"
 description = "A other zola theme"
@@ -92,5 +84,12 @@ date_format = "%Y-%m-%d"
 next_page = "Nästa Sidan"
 last_page = "Sista Sidan"
 
+[extra]
+katex_enable = true
+katex_auto_render = true
+show.tags = true
+show.links = true
+generate_feed = true
+feed_filename = "atom.xml"
 
 
