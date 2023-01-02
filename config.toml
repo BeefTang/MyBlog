@@ -90,6 +90,6 @@ katex_auto_render = true
 show.tags = true
 show.links = true
 generate_feed = true
-feed_filename = "atom.xml"
+feed_filename = "rss.xml"
 
 
